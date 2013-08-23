@@ -1,0 +1,50 @@
+PODS:
+  - AFHTTPRequestOperationLogger (0.10.0):
+    - AFNetworking (>= 0.9.0)
+  - AFNetworking (1.3.2)
+  - AFOAuth1Client (0.2.1):
+    - AFNetworking (~> 1.3)
+  - Kiwi (2.2)
+  - Mantle (1.2):
+    - Mantle/extobjc
+  - Mantle/extobjc (1.2)
+  - MBProgressHUD (0.7)
+  - MLScreenshot (1.0.3)
+  - RNBlurModalView (0.1.0)
+  - RUCanvasView (0.0.2)
+
+DEPENDENCIES:
+  - AFHTTPRequestOperationLogger (~> 0.10.0)
+  - AFOAuth1Client (from `https://github.com/rauluranga/AFOAuth1Client.git`, commit `7e4e3fcb451bf4719aad947bc2883b00c30d682a`)
+  - Kiwi
+  - Mantle (~> 1.2)
+  - MBProgressHUD (from `https://github.com/rauluranga/MBProgressHUD.git`, commit `95baad6af9712c1cd77e97f9d5c174072082227f`)
+  - MLScreenshot (~> 1.0.3)
+  - RNBlurModalView (from `https://github.com/rauluranga/RNBlurModalView.git`, commit `535c68289f0917bbbbefa16e87e08de171b15618`)
+  - RUCanvasView (from `https://github.com/rauluranga/RUCanvasView`)
+
+EXTERNAL SOURCES:
+  AFOAuth1Client:
+    :commit: 7e4e3fcb451bf4719aad947bc2883b00c30d682a
+    :git: https://github.com/rauluranga/AFOAuth1Client.git
+  MBProgressHUD:
+    :commit: 95baad6af9712c1cd77e97f9d5c174072082227f
+    :git: https://github.com/rauluranga/MBProgressHUD.git
+  RNBlurModalView:
+    :commit: 535c68289f0917bbbbefa16e87e08de171b15618
+    :git: https://github.com/rauluranga/RNBlurModalView.git
+  RUCanvasView:
+    :git: https://github.com/rauluranga/RUCanvasView
+
+SPEC CHECKSUMS:
+  AFHTTPRequestOperationLogger: 34ba125cb9eeb77a3b67aaaca105720ba3a0798c
+  AFNetworking: 7f9bcd7c287a75476cd5c61e82fd3380e93e4c54
+  AFOAuth1Client: 5f13207bd851775eb0a70e3e587b0cbf6be24627
+  Kiwi: db174bba4ee8068b15d7122f1b22fb64b7c1d378
+  Mantle: f5b5cba1b112273fe3bb4433cdcf1da76203c2b4
+  MBProgressHUD: 1fd8591a2216d5dec6de24e09187bb03bcbe9946
+  MLScreenshot: 7769bb46a6e085365776db6a2ea0567876cd0fc8
+  RNBlurModalView: ab3855ced43749cb0fb4d370160bd2908476c8b6
+  RUCanvasView: 2020d2385c6517ee5c16b432f3d50e26f421d243
+
+COCOAPODS: 0.22.3
