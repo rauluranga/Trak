@@ -63,6 +63,7 @@ once you have that, copy the following code:
     return YES;
 }
 ```
+You can get your `CONSUMER_KEY` & `CONSUMER_SECRET` from [Trello API](https://trello.com/1/appKey/generate)
 
 to respond to the custom URL scheme on iOS copy the following code:
 
@@ -95,7 +96,7 @@ You can present the Trak prompt via a three-finger-SwipeDown with the following 
 
 ###DIY Presentation
 
-You can call -presentIssueViewControllerOnViewController to show Trak prompt after a specific event.
+You can call `-presentIssueViewControllerOnViewController` to show Trak prompt after a specific event.
 
 ``` objective-c
 - (IBAction)show:(UIButton *)sender {
