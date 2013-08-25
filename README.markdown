@@ -36,7 +36,18 @@ coming soon.
 
 ###Manual installation
 
-Just drag & drop the ./Source folder into your project, then run `pod install` to download all dependencies needed.
+I´m in the middle of the process for creating the `podspec` file, meanwhile you need to drag & drop the ./Source folder into your project, then create a `podfile` adding the following dependencies:
+
+``` ruby
+pod 'Mantle', '~> 1.2'
+pod 'MLScreenshot', '~> 1.0.3'
+pod 'RUCanvasView', :git => 'https://github.com/rauluranga/RUCanvasView'
+pod 'MBProgressHUD', :git => 'https://github.com/rauluranga/MBProgressHUD.git', :commit => '95baad6af9712c1cd77e97f9d5c174072082227f'
+pod 'AFOAuth1Client', :git => 'https://github.com/rauluranga/AFOAuth1Client.git', :commit => '7e4e3fcb451bf4719aad947bc2883b00c30d682a'
+pod 'RNBlurModalView', :git => 'https://github.com/rauluranga/RNBlurModalView.git', :commit => '535c68289f0917bbbbefa16e87e08de171b15618'
+```
+
+finally run `pod install`.
 
 # Implementation 
 
